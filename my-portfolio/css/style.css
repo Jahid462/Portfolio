@@ -129,4 +129,31 @@ body{
 }
 
 
+/* About Section */
+
+
+.about_section{
+    width: 80%;
+    margin: 80px auto;
+}
+.about_content{
+    background-color: #FFF8F3;
+    text-align: center;
+    padding: 90px;
+}
+.about_content > p{
+    margin: 30px 0;
+}
+.contact_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
 
