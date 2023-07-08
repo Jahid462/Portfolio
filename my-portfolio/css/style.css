@@ -1,13 +1,68 @@
+/* Defualt CSS */
+
 *{
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
+/* Header Section Style */
 
-
-
-
-
+.header{
+    background-color: #FFF8F3;
+}
+.header_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+.header_content .logo h1{
+    font-weight: 800;
+    font-size: 30px;
+    cursor: pointer;
+}
+.header_content .logo > h1 > span{
+    color: #FD6E0A;
+}
+.menus ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menus ul li{
+    margin-left: 50px;
+}
+.menus ul li:first-child{
+    margin-left: 0;
+}
+.menus ul li a{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.menus ul li a:hover{
+    color: #dd5f06;
+}
+.btn_primary{
+    border: none;
+    padding: 12px 25px;
+    background-color: #FD6E0A;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn_primary:hover{
+    background-color: #dd5f06;
+}
 
 
 
