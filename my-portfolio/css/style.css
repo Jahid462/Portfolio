@@ -28,7 +28,7 @@ body{
     background-repeat: no-repeat;
     background-position: right bottom, left top;
     height: 623px;
-    box-shadow: 0px 1px 5px #000;
+    box-shadow: 0px -8px 28px #000;
 }
 .header_navbar{
     display: flex;
@@ -137,9 +137,10 @@ body{
     margin: 80px auto;
 }
 .about_content{
-    background-color: #FFF8F3;
+    background-color: #ffe7d6;
     text-align: center;
     padding: 90px;
+    color: #d51c1c;
 }
 .about_content > p{
     margin: 30px 0;
@@ -219,7 +220,7 @@ body{
 
 
 footer{
-    background-color: #FFF8F3;
+    background-color: #FFE7D6;
 }
 .footer_part{
     display: flex;
@@ -229,9 +230,11 @@ footer{
 .footer_section form input[type="text"], input[type="email"]{
     display: block;
     border: none;
-    padding: 10px 25px;
+    padding: 15px 25px;
     margin-bottom: 10px;
     width: 280px;
+    border-radius: 5px;
+    outline: none;
 }
 .footer_section form input[type="submit"]{
     display: block;
@@ -240,10 +243,12 @@ footer{
 .footer_section form textarea{
     border: none;
     padding: 10px 26px;
+    border-radius: 5px;
+    outline: none;
 }
 .footer_section h1{
     margin-bottom: 30px;
-    font-size: 22px;
+    font-size: 23px;
 }
 .footer_section p{
     font-size: 15px;
