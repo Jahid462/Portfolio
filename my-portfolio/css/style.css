@@ -177,6 +177,39 @@ body{
 }
 
 
+/* Resume Section */
 
-
-
+.resume_box{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+.resume_section{
+    text-align: center;
+    
+}
+.resume_section > h1{
+    margin: 100px 0;
+}
+.resume_content h1{
+    margin-top: 30px;
+    font-size: 17px;
+    text-align: left;
+}
+.resume_content h3{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 15px 0;
+    text-align: left;
+}
+.resume_content p{
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.resume > h1{
+    text-align: left;
+}
+.resume_section .download_btn{
+    margin: 50px 0;
+}
