@@ -151,7 +151,30 @@ body{
 }
 
 
+/* What I Do Section */
 
+
+.what_i_do_content{
+    text-align: center;
+}
+.what_i_do_content p{
+    margin: 30px 0;
+    padding: 0 160px;
+}
+.what_i_do_section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 30px;
+}
+.what_i_do_section_box{
+    box-shadow: 0px 0px 22px #e1e1e1;
+    padding: 35px;
+}
+.what_i_do_section_box h2{
+    margin: 20px 0;
+    font-size: 18px;
+}
 
 
 
